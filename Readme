@@ -1,0 +1,50 @@
+# 🎤 Voice-Enabled FAQ Chatbot
+
+This project is a **voice + text-based FAQ chatbot** built using **Streamlit, OpenAI, SpeechRecognition, and gTTS**.  
+It allows users to **ask FAQs via typing or voice input**, and the bot replies with **text + speech output**.
+
+---
+
+## 🚀 Features
+- Ask FAQs by typing or speaking.
+- Upload an audio file (wav/mp3/m4a) for automatic transcription.
+- Text-to-Speech (TTS) responses with `gTTS`.
+- Maintains chat history.
+- Uses OpenAI GPT for natural FAQ matching.
+
+---
+
+## 📂 Project Structure
+voice-faq-chatbot/
+│── app.py # Main Streamlit application
+│── requirements.txt # Dependencies
+│── README.md # Documentation
+
+---
+
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/voice-faq-chatbot.git
+   cd voice-faq-chatbot
+
+ 2. Create a virtual environment and install dependencies:
+     pip install -r requirements.txt
+
+3.Add your OpenAI API key:
+   export OPENAI_API_KEY="your_api_key_here"
+
+## ▶️ Run the App
+streamlit run app.py
+
+##🛠️ Future Scope
+- Add multilingual FAQ support.
+
+- Fine-tune on custom company data.
+
+- Deploy on cloud (Streamlit Cloud / Heroku / AWS).
+
+- Integrate with WhatsApp or Slack for enterprise use.
+
+## Results
+
